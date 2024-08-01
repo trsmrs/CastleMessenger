@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CastleMessaging" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/my_primary</item>
+         <item name="colorPrimaryVariant">@color/my_secondary</item>
+
+        <item name="android:windowBackground">@color/off_white</item>
+    </style>
+    <style name="Theme.CastleMessaging" parent="Base.Theme.CastleMessaging" />
+</resources>
