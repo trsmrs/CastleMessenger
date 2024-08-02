@@ -27,33 +27,34 @@
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/profile_pic_layout"
             android:layout_centerInParent="true"
+            android:id="@+id/other_username"
             />
 
         <include layout="@layout/profile_pic_view"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_marginStart="2dp"
-            android:layout_toRightOf="@+id/back_btn"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@+id/back_chat_btn"
             android:id="@+id/profile_pic_layout"
             />
 
         <ImageButton
+            android:id="@+id/back_chat_btn"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:src="@drawable/ic_back"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:layout_marginStart="38dp"
-            app:tint="@color/off_white"
             android:layout_centerVertical="true"
-            android:id="@+id/back_btn"
-            />
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_back"
+            app:tint="@color/off_white" />
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/toolbar"
+        android:layout_below="@+id/search_toolbar"
         android:layout_above="@+id/bottom_layout"
+        android:id="@+id/recycler_view_chat"
+
         />
 
     <RelativeLayout
@@ -73,6 +74,7 @@
             android:elevation="4dp"
             android:padding="10dp"
             android:layout_toLeftOf="@id/message_send_btn"
+            android:id="@+id/chat_message_input"
             />
 
         <ImageButton
