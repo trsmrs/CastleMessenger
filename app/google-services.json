@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276980441811",
+    "project_id": "castlemessaging",
+    "storage_bucket": "castlemessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276980441811:android:307115afde485b2cd8aa26",
+        "android_client_info": {
+          "package_name": "com.example.castlemessaging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB5PXu2etzMfOn9osPUBgco_dc_xfPA5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

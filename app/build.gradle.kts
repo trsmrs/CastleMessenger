@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -44,6 +45,15 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation("com.hbb20:ccp:2.5.0")
     implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.29")
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.auth)
+
+    // Import the BoM for the Firebase platform
+    implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
+
+    // Add the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation("com.google.firebase:firebase-auth")
 
 
     testImplementation(libs.junit)

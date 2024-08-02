@@ -3,4 +3,9 @@
     <string name="enter_mobile_number">Enter mobile number</string>
     <string name="enter_opt_sent_to_your_phone_number">Enter Opt sent to your phone number</string>
     <string name="enter_your_username">Enter your username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat_screen">Chat Screen</string>
+    <string name="profile_screem">Profile Screem</string>
+    <string name="castle_messager">Castle Messager</string>
 </resources>
