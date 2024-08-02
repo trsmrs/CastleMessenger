@@ -6,6 +6,27 @@ public class UserModel {
     private String phone;
     private String username;
     private Timestamp createdTimestamp;
+    private String userId;
+
+
+
+    public UserModel(String phone, String username, Timestamp createdTimestamp, String userId) {
+        this.userId = userId;
+        this.phone = phone;
+        this.username = username;
+        this.createdTimestamp = createdTimestamp;
+    }
+
+    public UserModel() {
+
+    }
+
+
+    public String getUserId(){
+        return userId;
+    }
+
+    public void setUserId(String userId){this.userId = userId;}
 
     public String getPhone() {
         return phone;
@@ -29,15 +50,5 @@ public class UserModel {
 
     public void setCreatedTimestamp(Timestamp createdTimestamp) {
         this.createdTimestamp = createdTimestamp;
-    }
-
-    public UserModel(String phone, String username, Timestamp createdTimestamp) {
-        this.phone = phone;
-        this.username = username;
-        this.createdTimestamp = createdTimestamp;
-    }
-
-    public UserModel() {
-
     }
 }

@@ -8,4 +8,6 @@
     <string name="chat_screen">Chat Screen</string>
     <string name="profile_screem">Profile Screem</string>
     <string name="castle_messager">Castle Messager</string>
+    <string name="search_friend">Search Friend</string>
+    <string name="username">Username</string>
 </resources>
